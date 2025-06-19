@@ -23,7 +23,7 @@
 //            String lets = "x";
             while (true) {
 
-                System.out.println("Enter the number");
+                System.out.println("Enter the String");
                 String name = in.nextLine();
                 if(name.equals("x")){
                     break;}

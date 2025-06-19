@@ -7,15 +7,20 @@ public class first4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
+
         while (true){
-            int x ;
-            int num = in.nextInt();
-            System.out.println(num);
-            if(9 == num){
+            System.out.println("Enter the number ");
+            String name = in.nextLine();
+            if(name.equals("x")){
+                System.out.println("The loop is break");
                 break;
+
+            }else {
+                int num = Integer.parseInt(name);
+                System.out.println("The number is "+ num);
             }
         }
-        
+        in.close();
     }
-    
+
 }
